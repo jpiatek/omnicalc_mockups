@@ -46,7 +46,7 @@
 
           Omnicalc</a>
         </div>
-        </nav>
+
 
 
 
@@ -57,10 +57,10 @@
 
           <ul class="nav navbar-nav visible-xs visible-sm"><!-- This makes the links invisible when the screen is too small -->
 
-          <li>
-          <a href="/Chicago Booth/APP-DEV/omnicalc_mockups/word_count/new.html">
-           <i class="fa fa-book"></i>
-              <span>
+            <li>
+              <a href="/Chicago Booth/APP-DEV/omnicalc_mockups/word_count/new.html">
+               <i class="fa fa-book"></i>
+               <span>
                 Word Count
               </span>
             </a>
@@ -93,6 +93,7 @@
 
 </div>
 </div>
+</nav>
 
 <div class="container">
   <div class="row">
@@ -119,44 +120,44 @@
 
 
 
-    <div class="col-md-9">
 
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title">New Word Count Calculation</h3>
-      </div>
-      <div class="panel-body">
-
-                  <div class="container">
-                      <div class="row">
-                          <div class="col-sm-2">Text</div>
-
-                          <div class="col-sm-10">
-                            <textarea name="user_text" class="form-control" rows="3" placeholder="Enter your text" id="user_text"></textarea>
-                          </div>
-                          <div class="form-group">
-
-                          <label for="user_word" class="col-sm-2 control-label">Special Word (optional)</label>
-                          </div>
+<!--
 
 
-
-                          <div class="col-sm-10">text box</div>
-                          <div class="col-sm-offset-2 col-sm-10">
-                            <button type="submit" class="btn btn-primary btn-block">Submit</button>
-                            </div>
-                      </div>
-                  </div>
+Below this is the custom code for each page
 
 
+-->
 
-      </div>
+<div class="col-md-9">
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">New Descriptive Statistics Calculation</h3>
     </div>
-  </div>
+    <div class="panel-body">
+      <form action="/Chicago Booth/APP-DEV/omnicalc_mockups/descriptive_statistics/results.html" class="form-horizontal">
 
 
+        <div class="form-group">
+        <label for="list_of_numbers" class="col-sm-2 control-label">Numbers
+          </label>
+
+          <div class="col-sm-10">
+            <textarea name="list_of_numbers" class="form-control" rows="3" placeholder="Enter your numbers (separated by spaces)" id="list_of_numbers"></textarea>
+          </div>
+          </div>
+
+         <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="submit" class="btn btn-primary btn-block">Submit</button>
+        </div>
+      </div>
+        </form>
 
 
-
-        </body>
-        </html>
+</div>
+</div>
+</div>
+</body>
+</html>
